@@ -38,7 +38,7 @@
                     <div class="col-sm-6">
                         <div class="contactinfo">
                             <ul class="nav nav-pills">
-                                <li><a href="#"><i class="fa fa-phone"></i>(81)9876453</a></li>
+                                <li><a href="#"><i class="fa fa-phone"></i>(xx)xxxxxxx</a></li>
                                 <li><a href="#"><i class="fa fa-envelope"></i>Vebooks@atendimento.com</a></li>
                             </ul>
                         </div>
@@ -115,14 +115,10 @@
                                 <li><a href="/">Home</a></li>
                                 <li class="dropdown"><a href="#">Vebooks<i class="fa fa-angle-down"></i></a>
                                     <ul role="menu" class="sub-menu">
-                                        <li><a href="shop.html">Produtos</a></li>
-                                        <li><a href="product-details.html">Product Details</a></li> 
-                                        <li><a href="checkout.html">Checkout</a></li> 
-                                        <li><a href="cart.html">Cart</a></li> 
+                                        <li><a href="/">Produtos</a></li>
                                         <li><a href="/home/login">Login</a></li> 
                                     </ul>
                                 </li> 
-                                <li><a href="contact-us.html">Contact</a></li>
                             </ul>
                         </div>
                     </div>
