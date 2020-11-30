@@ -1,0 +1,22 @@
+
+label{
+
+	margin-top: 20px;
+}
+.texto{
+
+	width: 600px;
+	height: 100px;
+	padding: 10px;
+}
+
+input#titulo{
+
+	padding: 5px;
+	width: 600px;
+}
+
+input#atualizar{
+
+	margin-top: 10px;
+}
