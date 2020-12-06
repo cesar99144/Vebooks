@@ -5,12 +5,12 @@ namespace App\Core;
 class Controller {
 
     public function model($model) {
-        require_once '../App/models/'.$model.'.php';
+        require_once '../App/Models/'.$model.'.php';
         return new $model;
 
     }
 
     public function view($view, $data = []) {
-        require_once '../App/views/template.php';
+        require_once '../App/Views/template.php';
     }
 }

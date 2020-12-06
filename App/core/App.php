@@ -11,12 +11,12 @@ class App {
     public function __construct(){
        ($url = $this->parseURL());
 
-        if(file_exists('../App/controllers/'.$url[1]. '.php')):
+        if(file_exists('../App/Controllers/'.$url[1]. '.php')):
             $this->controller = $url[1];
             unset($url[1]);
         endif;
 
-        require_once '../App/controllers/'.$this->controller.'.php';
+        require_once '../App/Controllers/'.$this->controller.'.php';
         $this->controller = new $this->controller;
 
         if(isset($url[2])):
